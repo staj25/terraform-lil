@@ -1,10 +1,8 @@
-
-provider "aws" {
-  region                  = "us-east-1"
-  shared_credentials_file = "/home/eon01/.aws/credentials"
-  profile                 = "terraform"
-}
-
+#provider "aws" {
+#  region                  = "us-east-1"
+#  shared_credentials_file = "/home/eon01/.aws/credentials"
+#  profile                 = "terraform"
+#}
 
 resource "aws_vpc" "environment-example-two" {
   cidr_block           = "10.0.0.0/16"
